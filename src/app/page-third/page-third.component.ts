@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-page-third',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './page-third.component.html',
   styleUrl: './page-third.component.scss'
 })

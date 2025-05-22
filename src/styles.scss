@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-h1{
-    font-size: 45px;
-    color: black;
+
+.lp_container{
+    border: 1px solid red;
+    width: 100%;
+
+    overflow: hidden;
+    img {
+        width: 100px;
+        height: auto;
+    }
 }
