@@ -28,24 +28,13 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src/assets",
-                "output": "/assets"
-              },
-                          {
-                "glob": "**/*",
-                "input": "src",
-                "output": "/"
+                "input": "public"
               }
             ],
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -98,13 +87,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src/assets",
-                "output": "/assets"
-              },
-                          {
-                "glob": "**/*",
-                "input": "src",
-                "output": "/"
+                "input": "public"
               }
             ],
             "styles": [
